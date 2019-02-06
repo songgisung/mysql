@@ -27,3 +27,16 @@ CREATE TABLE board`.`Board` (
   `fileName2` VARCHAR(45) NULL,  
   PRIMARY KEY (`idx`));  
   ~~~
+***ALTER TABLE***
+~~~  
+ALTER TABLE `board`.`Board` 
+ADD COLUMN `addFile` VARCHAR(45) NULL AFTER `fileName2`;
+~~~
+ALTER TABLE `board`.`Board` 
+DROP COLUMN `addFile`;
+~~~
+
+***INSERT***
+~~~
+INSERT INTO `board`.`Board` (`name`, `password`) VALUES ('test', '1234');
+~~~
