@@ -41,3 +41,8 @@ DROP COLUMN `addFile`;
 ~~~
 INSERT INTO `board`.`Board` (`name`, `password`) VALUES ('test', '1234');
 ~~~
+
+***UPDATE***
+~~~
+UPDATE `board`.`Board` SET `content` = 'test' WHERE (`idx` = '1');
+~~~
