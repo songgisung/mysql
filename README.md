@@ -4,7 +4,7 @@
 CREATE SCHEMA `schema_name` DEFAULT CHARACTER SET utf8 ; <-default charcter utf-8   
 
 **CREATE TABLE**
-CREATE TABLE board`.`Board` (
+CREATE TABLE board`.`Board` ( </>
   `idx` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NOT NULL,
   `password` VARCHAR(45) NOT NULL,
