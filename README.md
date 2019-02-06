@@ -4,6 +4,7 @@
 CREATE SCHEMA `schema_name` DEFAULT CHARACTER SET utf8 ; <-default charcter utf-8   
 
 **CREATE TABLE**
+~~~
 CREATE TABLE board`.`Board` (  
   `idx` INT NOT NULL AUTO_INCREMENT,  
   `name` VARCHAR(45) NOT NULL,  
@@ -23,4 +24,4 @@ CREATE TABLE board`.`Board` (
   `fileName1` VARCHAR(45) NULL,  
   `fileName2` VARCHAR(45) NULL,  
   PRIMARY KEY (`idx`));  
-  
+  ~~~
