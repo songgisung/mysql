@@ -1,5 +1,5 @@
 # MYSQL   
-//-------------------------  
+
 **CREATE SCHEMA**  
 ~~~
 CREATE SCHEMA `schema_name` DEFAULT CHARACTER SET utf8 ;
@@ -31,6 +31,7 @@ CREATE TABLE board`.`Board` (
 ~~~  
 ALTER TABLE `board`.`Board` 
 ADD COLUMN `addFile` VARCHAR(45) NULL AFTER `fileName2`;
+~~~
 ~~~
 ALTER TABLE `board`.`Board` 
 DROP COLUMN `addFile`;
